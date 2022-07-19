@@ -1,0 +1,32 @@
+{
+  "name": "api-din-din",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorF05/API-DIN-DIN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorF05/API-DIN-DIN/issues"
+  },
+  "homepage": "https://github.com/VictorF05/API-DIN-DIN#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validation": "^4.1.0",
+    "joi": "^17.6.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
